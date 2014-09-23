@@ -1,0 +1,30 @@
+name        = Unary
+description = An admin theme based on Radix
+screenshot  = screenshot.png
+core        = 7.x
+
+; Base - Radix
+base theme  = radix
+
+; Regions
+regions[help]      = Help
+regions[content]      = Content
+regions[footer]       = Footer
+
+; CSS - General
+stylesheets[all][]     = assets/stylesheets/screen.css
+stylesheets[print][]   = assets/stylesheets/print.css
+
+; Bootstrap-Select
+scripts[] = assets/javascripts/bootstrap-select.min.js
+stylesheets[all][]  = assets/javascripts/bootstrap-select.min.css
+
+;Custom
+scripts[] = assets/javascripts/script.js
+
+; Information added by drupal.org packaging script on 2013-10-19
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "unary"
+datestamp = "1382149897"
+

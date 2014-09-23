@@ -1,0 +1,20 @@
+.dropdown-menu > li > a:focus > [class*=" icon-"] {
+  background: none;
+}
+
+
+.ui-dialog-titlebar-close {
+	border: none;
+	background: transparent;
+	float: right;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 14px;
+	outline: none;
+
+	&:after {
+		content: "x";
+	}
+}
+
+
