@@ -1,5 +1,5 @@
-name        = Unary
-description = An admin theme based on Radix
+name        = Unagi
+description = An fork of unary, an admin theme based on Radix
 screenshot  = screenshot.png
 core        = 7.x
 
@@ -21,10 +21,4 @@ stylesheets[all][]  = assets/javascripts/bootstrap-select.min.css
 
 ;Custom
 scripts[] = assets/javascripts/script.js
-
-; Information added by drupal.org packaging script on 2013-10-19
-version = "7.x-1.x-dev"
-core = "7.x"
-project = "unary"
-datestamp = "1382149897"
 
